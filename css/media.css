@@ -330,7 +330,7 @@
     .navbar-nav .a1a::after {
         content: "";
         position: absolute;
-        width: 30px;
+        width: 33px;
         height: 2px;
         background-color: #7F0;
         left: 8px;
@@ -339,7 +339,7 @@
     .navbar-nav .a2a::after {
         content: "";
         position: absolute;
-        width: 37px;
+        width: 40px;
         height: 2px;
         background-color: #7F0;
         left: 8px;
@@ -348,7 +348,7 @@
     .navbar-nav .a3a::after {
         content: "";
         position: absolute;
-        width: 23px;
+        width: 26px;
         height: 2px;
         background-color: #7F0;
         left: 9px;
@@ -357,7 +357,7 @@
     .navbar-nav .a4a::after {
         content: "";
         position: absolute;
-        width: 54px;
+        width: 57px;
         height: 2px;
         background-color: #7F0;
         left: 9px;
@@ -366,7 +366,7 @@
     .navbar-nav .a5a::after {
         content: "";
         position: absolute;
-        width: 58px;
+        width: 61px;
         height: 2px;
         background-color: #7F0;
         left: 9px;
@@ -375,7 +375,7 @@
     .navbar-nav .a6a::after {
         content: "";
         position: absolute;
-        width: 52px;
+        width: 55px;
         height: 2px;
         background-color: #7F0;
         left: 9px;
