@@ -1,0 +1,592 @@
+@font-face {
+    font-family: 'rihi';
+    src: url(font/digital-7.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    font-family: rihi;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+
+/* 
+font name
+======================
+     font-family: rihi;
+=======================
+*/
+
+
+/* .container-fluid {
+    width: 60% !important;
+    background-color: #fff;
+} */
+
+
+/* 
+======================
+head-image
+=======================
+*/
+
+.sectionn {
+    margin-bottom: 226px;
+}
+
+.landingpage {
+    text-align: center;
+    position: relative;
+}
+
+.landingpage img {
+    width: 30%;
+    margin-top: 146px;
+}
+
+.pnp {
+    text-align: center;
+}
+
+.pnp a span {
+    font-size: 52px;
+    margin-top: 20px;
+    color: red;
+}
+
+.pnp a .abd:hover {
+    color: #fff;
+}
+
+
+/* .all-sec-part {
+   background-image: url(image/main-photo.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   overflow: hidden;
+   background-position: center;
+} */
+
+.imgg {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    background-color: #947960;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head-image .imgg img {
+    width: 100%;
+    height: 252px;
+    object-fit: cover;
+}
+
+.head-image {
+    position: relative;
+}
+
+.head-image h1 {
+    position: absolute;
+    color: rgb(255, 0, 0);
+    font-size: 176px;
+    text-align: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.s-icon a i {
+    border: 1px solid #007bff;
+    background: #fff;
+    border-radius: 18px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.s-icon a img {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #007bff;
+    background: #fff;
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: -5px;
+}
+
+.s-icon a .imm {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #007bff;
+    background: #fff;
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: -5px;
+}
+
+.s-icon {
+    position: absolute;
+    bottom: -27px;
+    left: 0;
+}
+
+
+/* 
+======================
+navbar
+=======================
+*/
+
+.navbar-nav .nav-link {
+    position: relative;
+    margin: 5px 5px;
+    letter-spacing: 0.05em;
+    font-weight: normal;
+    font-style: normal;
+    color: #77FF00 !important;
+    font-size: 37px;
+}
+
+.navbar-nav .a1a::after {
+    content: "";
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    background-color: #7F0;
+    left: 9px;
+    bottom: 18px;
+}
+
+.navbar-nav .a2a::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 2px;
+    background-color: #7F0;
+    left: 9px;
+    bottom: 18px;
+}
+
+.navbar-nav .a3a::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #7F0;
+    left: 9px;
+    bottom: 18px;
+}
+
+.navbar-nav .a4a::after {
+    content: "";
+    position: absolute;
+    width: 132px;
+    height: 2px;
+    background-color: #7F0;
+    left: 9px;
+    bottom: 18px;
+}
+
+.navbar-nav .a5a::after {
+    content: "";
+    position: absolute;
+    width: 144px;
+    height: 2px;
+    background-color: #7F0;
+    left: 9px;
+    bottom: 18px;
+}
+
+.navbar-nav .a6a::after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 2px;
+    background-color: #7F0;
+    left: 9px;
+    bottom: 18px;
+}
+
+
+/* 
+======================
+home content/ index content
+=======================
+*/
+
+.home-content {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.home-content .hm-one {
+    color: #FF0000;
+    font-size: 43px;
+}
+
+.home-content .hm-two {
+    color: #00FFDD;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 34px;
+}
+
+.home-content .hm-three {
+    color: #FF0000;
+    font-size: 28px;
+}
+
+.home-content .hm-four {
+    color: #00FFDD;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home-content .hm-five {
+    color: #FF0000;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.home-content .hm-six {
+    color: #00FFDD;
+    font-size: 28px;
+}
+
+
+/* 
+======================
+about content
+=======================
+*/
+
+.about-content {
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 9px 148px;
+}
+
+.ab-one span:nth-child(1) {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(4) {
+    color: rgb(0, 255, 221);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(7) {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(10) {
+    color: rgb(0, 255, 221);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(13) {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(16) {
+    color: rgb(0, 255, 221);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(19) {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(22) {
+    color: rgb(0, 255, 221);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(25) {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(28) {
+    color: rgb(0, 255, 221);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(31) {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(34) {
+    color: rgb(0, 255, 221);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(37) {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(40) {
+    color: rgb(0, 255, 221);
+    font-size: 25px;
+}
+
+.ab-one span:nth-child(44) {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+
+/* 
+======================
+FAQ content
+=======================
+*/
+
+.faq-content {
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 0px 142px;
+}
+
+.faq-content span:nth-child(1) {
+    font-size: 27px;
+    color: #FF0000;
+}
+
+.faq-content span:nth-child(4) {
+    font-size: 19px;
+    color: rgb(0, 255, 221);
+}
+
+.faq-content span:nth-child(7) {
+    font-size: 27px;
+    color: #FF0000;
+}
+
+.faq-content span:nth-child(10) {
+    font-size: 19px;
+    color: rgb(0, 255, 221);
+}
+
+.faq-content p:nth-child(2) span,
+.faq-content p:nth-child(8) span,
+.faq-content p:nth-child(10) span,
+.faq-content p:nth-child(12) span,
+.faq-content p:nth-child(14) span,
+.faq-content p:nth-child(16) span,
+.faq-content p:nth-child(18) span,
+.faq-content p:nth-child(20) span,
+.faq-content p:nth-child(22) span,
+.faq-content p:nth-child(24) span,
+.faq-content p:nth-child(26) span,
+.faq-content p:nth-child(28) span,
+.faq-content p:nth-child(30) span,
+.faq-content p:nth-child(32) span,
+.faq-content p:nth-child(34) span,
+.faq-content p:nth-child(36) span,
+.faq-content p:nth-child(38) span,
+.faq-content p:nth-child(40) span,
+.faq-content p:nth-child(42) span,
+.faq-content p:nth-child(44) span,
+.faq-content p:nth-child(46) span,
+.faq-content p:nth-child(48) span,
+.faq-content p:nth-child(50) span {
+    font-size: 27px;
+    color: #FF0000;
+}
+
+.faq-content p:nth-child(3) span {
+    font-size: 19px;
+    color: rgb(0, 255, 221);
+}
+
+.faq-content p:nth-child(4) span {
+    font-size: 19px;
+    color: rgb(0, 255, 221);
+}
+
+.faq-content p:nth-child(5) span,
+.faq-content p:nth-child(6) span,
+.faq-content p:nth-child(7) span {
+    font-size: 19px;
+    color: rgb(0, 255, 221);
+}
+
+.faq-content p:nth-child(9) span,
+.faq-content p:nth-child(11) span,
+.faq-content p:nth-child(13) span,
+.faq-content p:nth-child(15) span,
+.faq-content p:nth-child(17) span,
+.faq-content p:nth-child(19) span,
+.faq-content p:nth-child(21) span,
+.faq-content p:nth-child(23) span,
+.faq-content p:nth-child(25) span,
+.faq-content p:nth-child(27) span,
+.faq-content p:nth-child(29) span,
+.faq-content p:nth-child(31) span,
+.faq-content p:nth-child(33) span,
+.faq-content p:nth-child(35) span,
+.faq-content p:nth-child(37) span,
+.faq-content p:nth-child(39) span,
+.faq-content p:nth-child(41) span,
+.faq-content p:nth-child(43) span,
+.faq-content p:nth-child(45) span,
+.faq-content p:nth-child(47) span,
+.faq-content p:nth-child(49) span,
+.faq-content p:nth-child(51) span {
+    font-size: 19px;
+    color: rgb(0, 255, 221);
+}
+
+
+/* 
+======================
+roadmap content
+=======================
+*/
+
+.road-content {
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 0px 170px;
+}
+
+.road-content h2:nth-child(1) span {
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+}
+
+.road-content h2:nth-child(2) span {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+.road-content h4 {
+    text-align: left;
+}
+
+.road-content h4:nth-child(3) span,
+.road-content h4:nth-child(4) span,
+.road-content h4:nth-child(5) span,
+.road-content h4:nth-child(6) span,
+.road-content h4:nth-child(7) span,
+.road-content h4:nth-child(8) span,
+.road-content h4:nth-child(9) span,
+.road-content h4:nth-child(10) span,
+.road-content h4:nth-child(11) span,
+.road-content h4:nth-child(12) span,
+.road-content h4:nth-child(13) span,
+.road-content h4:nth-child(14) span,
+.road-content h4:nth-child(15) span,
+.road-content h4:nth-child(16) span,
+.road-content h4:nth-child(17) span,
+.road-content h4:nth-child(18) span,
+.road-content h4:nth-child(19) span,
+.road-content h4:nth-child(20) span {
+    color: rgb(255, 0, 0);
+    font-size: 31px;
+}
+
+.road-content h4:nth-child(3) span:nth-child(2) {
+    color: #00FFDD;
+    font-size: 22px;
+}
+
+.road-content h4:nth-child(4) span:nth-child(2),
+.road-content h4:nth-child(5) span:nth-child(2),
+.road-content h4:nth-child(6) span:nth-child(2),
+.road-content h4:nth-child(7) span:nth-child(2),
+.road-content h4:nth-child(8) span:nth-child(2),
+.road-content h4:nth-child(9) span:nth-child(2),
+.road-content h4:nth-child(10) span:nth-child(2),
+.road-content h4:nth-child(11) span:nth-child(2),
+.road-content h4:nth-child(12) span:nth-child(2),
+.road-content h4:nth-child(13) span:nth-child(2),
+.road-content h4:nth-child(14) span:nth-child(2),
+.road-content h4:nth-child(15) span:nth-child(2),
+.road-content h4:nth-child(16) span:nth-child(2),
+.road-content h4:nth-child(17) span:nth-child(2),
+.road-content h4:nth-child(18) span:nth-child(2),
+.road-content h4:nth-child(19) span:nth-child(2),
+.road-content h4:nth-child(20) span:nth-child(2) {
+    color: #00FFDD;
+    font-size: 20px;
+}
+
+.road-content h4:nth-child(22) span {
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+}
+
+
+/* 
+======================
+specifics content
+=======================
+*/
+
+.specifics-content {
+    margin-bottom: 100px;
+    padding: 0px 159px;
+}
+
+.specifics-content h2 span {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    line-height: 45px;
+}
+
+
+/* 
+======================
+contact content
+=======================
+*/
+
+.contact-content {
+    margin-bottom: 100px;
+    padding: 0px 150px;
+}
+
+.contact-content h4 {
+    color: rgb(255, 0, 0);
+    font-size: 36px;
+}
